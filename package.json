@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --out-dir dev --port 4005",
-    "build": "parcel build src/index.html --out-dir dist"
+    "build": "parcel build src/index.html --out-dir dist --public-url ."
   },
   "repository": {
     "type": "git",
