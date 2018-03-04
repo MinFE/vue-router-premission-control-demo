@@ -1,0 +1,36 @@
+{
+  "name": "vue-router-premission-control-demo",
+  "version": "1.0.0",
+  "description": "vue-router-premission-control",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir dev --port 4005",
+    "build": "parcel build src/index.html --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinFE/vue-router-premission-control-demo.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-router",
+    "premission-control"
+  ],
+  "author": "minfive <chenxiaowu1994@outlook.com> (http://blog.minfive.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinFE/vue-router-premission-control-demo/issues"
+  },
+  "homepage": "https://github.com/MinFE/vue-router-premission-control-demo#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0",
+    "rimraf": "^2.6.2",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}
